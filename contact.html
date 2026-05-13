@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Жанры музыки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Жанры музыки</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Об авторе</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Свяжитесь со мной</h2>
+            
+            <p>Я всегда открыт к общению! Если у вас есть вопросы, предложения или вы просто хотите поделиться своими музыкальными открытиями — пишите!</p>
+        </section>
+
+        <section>
+            <h3>Контактная информация</h3>
+            <ul>
+                <li><strong>Email:</strong> ivan.music@musicguide.ru</li>
+                <li><strong>VK:</strong> vk.com/music.guide</li>
+                <li><strong>Telegram:</strong> @music_guide</li>
+                <li><strong>YouTube:</strong> youtube.com/@musicguide</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Напишите мне</h3>
+            
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Ваше имя:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                </p>
+                
+                <p>
+                    <label for="email">Ваш Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Введите email" required>
+                </p>
+                
+                <p>
+                    <label for="subject">Тема сообщения:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="question">Вопрос о сайте</option>
+                        <option value="suggestion">Предложение</option>
+                        <option value="collab">Сотрудничество</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="message">Сообщение:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="50" placeholder="Напишите что-нибудь..." required></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Сбросить</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h3>Часто задаваемые вопросы</h3>
+            
+            <h4>Как быстро вы отвечаете?</h4>
+            <p>Обычно в течение 1-2 дней. Стараюсь отвечать на все сообщения.</p>
+            
+            <h4>Могу ли я предложить свою статью?</h4>
+            <p>Да, конечно! Если вы разбираетесь в каком-то жанре и хотите написать о нём — свяжитесь со мной, обсудим.</p>
+            
+            <h4>Будет ли сайт развиваться?</h4>
+            <p>Обязательно! В планах добавить больше жанров, подкасты и интерактивные тесты.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Иван Ломакин, 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
